@@ -19,6 +19,10 @@ And then execute:
 Or install it yourself as:
 
     $ gem install org2mindmap
+    
+For install quickly, try installing without documentation:
+
+    $ gem install org2mindmap --no-rdoc --no-ri
 
 ## Usage
 
