@@ -22,7 +22,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+- Generate a visual diagram.
+  - Run:
+
+   $ org2mindmap org-filename
+
+  - Open the output file named *index.html*
+  - See the corresponding mind map in your browser.
+
+- Convert to JSON format
+  - TODO
+
+- Convert to OPML format
+  - TODO
+
+## To-Do List
+
+- More export choice
+- Item status and priority support
+- Date support
 
 ## Development
 
