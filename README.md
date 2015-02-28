@@ -67,6 +67,7 @@ TODO
 - More export choice
 - Item status and priority support
 - Date support
+- Both sides expanding
 
 ## Build
 

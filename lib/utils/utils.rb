@@ -9,7 +9,7 @@ module Utils
   end
 
   def self.partition_sub(a_para)
-    [a_para.slice!(/.+\n/), a_para]
+    [a_para.slice!(/[\S\s]+?\n(?![^*])/), a_para]
   end
 
   def self.split_contents(cont, level)
