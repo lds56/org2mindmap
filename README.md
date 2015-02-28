@@ -22,13 +22,31 @@ Or install it yourself as:
 
 ## Usage
 
-### Generate a visual diagram.
+### Used as a library
+
+Run irb:
+    
+    $ irb
+    
+Import Org2mindmap:
+
+```ruby
+require 'org2mindmap'
+```
+    
+Then call:
+
+```ruby
+Org2mindmap:ConstMod.new my_org_file
+```
+    
+More info in the API Guide(TODO)
+
+### Generate a visual diagram
 
 Run:
-
     
     $ org2mindmap org-filename
-    
     
 Open the output file named **index.html**
  
@@ -45,6 +63,16 @@ TODO
 - More export choice
 - Item status and priority support
 - Date support
+
+## Build
+
+If you are familiar with [RubyGem](https://rubygems.org/), you may skip this section.
+
+Org2mindmap is a Ruby Gem project, so you can apply the method used in Gem to build it.
+
+    $ gem build org2mindmap.gemspec
+
+After that, you will find a .gem file named org2mindmap.
 
 ## Development
 
