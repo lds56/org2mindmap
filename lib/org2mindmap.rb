@@ -2,17 +2,18 @@ require "org2mindmap/version"
 require 'json'
 require 'Nokogiri'
 require 'utils/utils'
+require 'utils/data_loader'
 require 'mods/basic_constructor'
 
 module Org2mindmap
   # Constructor Module
   class ConstMod
-    include Constructor, Utils
-
+    include Constructor, Utils, DataLoader
     def initialize(raw_content)
       @content = Utils.remove_empty_line(raw_content)
       @metadata_array, @main_content = Utils.partition_mm @content
       @full_content = 'Root' + "\n" + @main_content
+      @data = DataLoader.from(__FILE__).read
     end
 
     def construct_metadata
@@ -36,7 +37,7 @@ module Org2mindmap
     end
 
     def construct_mmhtml
-      construct_html Nokogiri::HTML(DATA.read), 'script#data-script'
+      construct_html Nokogiri::HTML(@data), 'script#data-script'
     end
   end
 end
