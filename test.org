@@ -1,0 +1,43 @@
+#+TITLE: Windows Versions
+#+AUTHOR: Sreejith Kesavan
+#+ROOT: Windows Versions
+
+* Windows 8 Home
+** Windows 8
+** Windows 8
+** Windows 8 Enterprise
+** Windows RT
+
+* Windows 7
+** Windows 7 Starter
+** Windows 7 Home Basic
+** Windows 7 Home Premium
+** Windows 7 Professional
+** Windows 7 Enterprise
+** Windows 7 Ultimate
+** Windows 7 Service Pack 1
+
+* Windows Vista
+** Windows Vista Starter
+** Windows Vista Home Basic
+** Windows Vista Home Premium
+** Windows Vista Business
+** Windows Vista Enterprise
+** Windows Vista Ultimate
+
+* Windows XP
+** Windows XP Starter Edition
+** Windows XP Home Edition
+** Windows XP Edition N
+** Windows XP Professional,
+** Windows XP Edition N
+** Windows XP Professional x64 Edition
+** Windows XP for specialized hardware
+** Windows XP Media Center Edition
+*** Windows XP Media Center Edition
+*** Windows XP Media Center Edition 2003
+*** Windows XP Media Center Edition 2004
+*** Windows XP Media Center Edition 2005
+** Windows XP 64-bit Edition
+** Windows XP Tablet PC Edition
+** Windows Fundamentals for Legacy PCs

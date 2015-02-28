@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'org2mindmap'
+
+a_ctor = ConstMod.new File.open(ARGV[0], 'r').read
+File.open('index.html', 'w') { |f| f.write a_ctor.construct_mmhtml }
+puts 'Write to index.html successfully!'
