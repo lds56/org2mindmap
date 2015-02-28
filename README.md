@@ -22,18 +22,20 @@ Or install it yourself as:
 
 ## Usage
 
-- Generate a visual diagram.
+### Generate a visual diagram.
   - Run:
 
-   $ org2mindmap org-filename
-
-  - Open the output file named *index.html*
+    ```
+    $ org2mindmap org-filename
+    ```
+    
+  - Open the output file named **index.html**
   - See the corresponding mind map in your browser.
 
-- Convert to JSON format
+### Convert to JSON format
   - TODO
 
-- Convert to OPML format
+### Convert to OPML format
   - TODO
 
 ## To-Do List
