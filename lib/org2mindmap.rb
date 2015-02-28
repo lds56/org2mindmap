@@ -139,7 +139,6 @@ __END__
 
     function updateY(orient, cur, tot) {
         cur.y = tot + orient * (cur.hasOwnProperty('parent') ? cur.parent.text.length * (TITLE_FONT_SIZE - cur.depth) * FACTOR + level_width : 0);
-        console.log(cur.y);
         if (cur.hasOwnProperty('children'))
             cur.children.forEach(function (el) {
                 updateY(orient, el, cur.y);

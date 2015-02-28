@@ -1,7 +1,7 @@
 # Utility
 module Utils
-  COLOR_ARRAY = %w['RED', 'PINK', 'PURPLE', 'INDIGO', 'BLUE', 'TEAL', 'CYAN',
-                 'GREEN', 'LIME', 'YELLOW', 'AMBER', 'ORANGE', 'DEEP_ORANGE']
+  COLOR_ARRAY = %w(RED PINK PURPLE INDIGO BLUE TEAL CYAN
+                 GREEN LIME YELLOW AMBER ORANGE DEEP_ORANGE)
   @color_index = -1
   @color_reorder = COLOR_ARRAY
 
