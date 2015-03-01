@@ -1,6 +1,6 @@
 # Org2mindmap
 
-Welcome!
+## Welcome!
 
 ```ruby
 org2mindmap = {:org => mindmap}
@@ -33,6 +33,16 @@ For quick installing, try installing without documentation:
 
 ## Usage
 
+### Generate a visual diagram
+
+Run:
+    
+    $ org2mindmap org-filename
+    
+Open the output file named **index.html**
+ 
+See the corresponding mind map in your browser.
+
 ### Used as a library
 
 Run irb:
@@ -52,16 +62,6 @@ Org2mindmap:ConstMod.new my_org_file
 ```
     
 More info in the API Guide(TODO)
-
-### Generate a visual diagram
-
-Run:
-    
-    $ org2mindmap org-filename
-    
-Open the output file named **index.html**
- 
-See the corresponding mind map in your browser.
 
 ### Convert to JSON format
 TODO
