@@ -4,6 +4,10 @@ Welcome!
 
 TODO: Write some description
 
+# Demo
+
+http://nonghao.me/demo/org2mindmap/
+
 ## Installation
 
 Add this line to your application's Gemfile:
