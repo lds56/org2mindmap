@@ -4,7 +4,7 @@ Welcome!
 
 TODO: Write some description
 
-# Demo
+## Demo
 
 http://nonghao.me/demo/org2mindmap/
 
