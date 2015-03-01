@@ -2,7 +2,10 @@
 
 Welcome!
 
-TODO: Write some description
+```ruby
+org2mindmap = {:org => mindmap}
+browser.open org2mindmap.fetch :org
+```
 
 ## Demo
 
@@ -73,7 +76,7 @@ TODO
 - Date support
 - Both sides expanding
 
-## Build
+## Building
 
 If you are familiar with [RubyGem](https://rubygems.org/), you may skip this section.
 
